@@ -1,16 +1,44 @@
 <footer class="site-footer">
-	<div class="">
-		2018 MT Publicidad
-	</div>
-	<div class="">
-		<a href="#" target="_blank">Facebook</a>
-		<a href="#" target="_blank">Behance</a>
-		<a href="#" target="_blank">Linkedin</a>
-	</div>
-	<div class="">
-		<a href="#">Contacto</a>
-	</div>
-	<div class="">
-		<a href="#">Terminos y Privacidad</a>
-	</div>
+	<section class="footer-section-1 container">
+		<div class="footer-data">
+			<div class="footer-logo">
+				<img src="/assets/img/logo-b.png" alt="{{ site.title | escape }}">
+			</div>
+			<div class="footer-nav-contact">
+				<div class="footer-mapa-sitio">
+					<h6>Mapa de sitio</h6>
+					{%- if page_paths -%}
+						{%- for path in page_paths -%}
+							{%- assign my_page = site.pages | where: "path", path | first -%}
+							{%- if my_page.title -%}
+								<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+							{%- endif -%}
+						{%- endfor -%}
+					{%- endif -%}
+				</div>
+				<div class="footer-contacto">
+					<h6>Contacto</h6>
+					<p>T. + {{ site.tel | escape }}</p>
+					<p>Horario: {{ site.hours | escape }}</p>
+					<a href="contacto" class="btn-custom">Contactar</a>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+	<section class="footer-section-2 container">
+		<div class="footer-socials ">
+			<p>2018 {{ site.title | escape }}</p>
+			<div class="social-icons">
+				<a href="#" target="_blank"><img src="/assets/img/facebook-icon-w.png" alt="Facebook"></a>
+				<a href="#" target="_blank"><img src="/assets/img/behance-icon-w.png" alt="Behance"></a>
+				<a href="#" target="_blank"><img src="/assets/img/linkedin-icon-w.png" alt="LinkedIn"></a>
+			</div>
+			<a href="contacto">Contacto</a>
+			<a href="#">Terminos y Privacidad</a>
+		</div>
+			
+		
+	</section>
 </footer>

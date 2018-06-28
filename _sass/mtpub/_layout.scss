@@ -100,30 +100,6 @@
   }
 }
 
-
-
-/**
- * Site footer
- */
- .site-footer {
- 	background-color: #000;
- 	padding: 2em 4em;
- 	display: flex;
- 	flex-direction: row;
- 	justify-content: space-around;
- 	color: #fff;
- 	a {
- 		color: #fff;
- 		text-decoration: none;
- 	}
- }
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
 /**
  * Page content
  */

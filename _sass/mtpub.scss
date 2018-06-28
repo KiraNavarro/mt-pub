@@ -43,9 +43,26 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+
+/*
+* Colors
+*/
+$gray: #404041;
+$light-gray: #6f7070;
+$btn-light-gray: #F5F5F7;
+$pink: #D9166F;
+$orange: #f37920;
+
 // Import partials.
 @import
   "mtpub/base",
   "mtpub/layout",
-  "mtpub/syntax-highlighting"
+  "mtpub/syntax-highlighting",
+  "mtpub/buttons",
+  "mtpub/footer"
 ;
+
+.container {
+	padding: 0 10em;
+}
+
