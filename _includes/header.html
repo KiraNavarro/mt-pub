@@ -3,12 +3,14 @@
 	{%- assign default_paths = site.pages | map: "path" -%}
 	{%- assign page_paths = site.header_pages | default: default_paths -%}
 	<!-- -->
-	<div class="site-header">
-		<div class="site-logo">
-			<a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/img/site-logo.png" alt="{{ site.title | escape }}"></a>
+	<div class="decoBoxBack">
+			<div class="site-header decoBoxFront">
+				<div class="site-logo">
+					<a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/img/site-logo.png" alt="{{ site.title | escape }}"></a>
+				</div>
+			</div>
 		</div>
 	</div>
-	
 	<div class="nav-toggle">
 		<span></span>
 	</div>
