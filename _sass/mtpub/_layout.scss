@@ -51,8 +51,13 @@ section {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
+	.item-img {
+		width: 200px;
+	}
 	img {
 		margin-top: 2em;
+		width: 100%;
 	}
 }
 

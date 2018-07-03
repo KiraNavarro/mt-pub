@@ -66,16 +66,11 @@ layout: default
 	<section class="familia container">
 		<h2>Familia MT</h2>
 		<div class="familia-items">
-			<img src="/assets/img/familia/unidekor.png" alt="Unidekor">
-			<img src="/assets/img/familia/altex.png" alt="Altex">
-			<img src="/assets/img/familia/walmart.png" alt="Walmart">
-			<img src="/assets/img/familia/+=.png" alt="+=">
-			<img src="/assets/img/familia/genius.png" alt="Genius">
-			<img src="/assets/img/familia/pride-packing.png" alt="Pride Packing">
-			<img src="/assets/img/familia/ryg.png" alt="RyG">
-			<img src="/assets/img/familia/fortuna.png" alt="Fortuna">
-			<img src="/assets/img/familia/salvador-nunez.png" alt="Salvador Nuñez">
-			<img src="/assets/img/familia/pancromatico.png" alt="Pancromático Producciones">
+			{% for item in site.data.familia %}
+			<div class="item-img">
+				<img src="/assets/img/familia/{{ item.img }}" alt="{{ item.name }}">
+			</div>
+			{% endfor %}
 		</div>
 		
 		

@@ -6,7 +6,7 @@
 	padding: 8em 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .footer-nav-contact {
@@ -16,18 +16,29 @@
 
 .footer-mapa-sitio {
 	border-right: 1px solid $gray;
-	padding-right: 3em;
-	margin-right: 3em;
+	padding-right: 1.5em;
+	margin-right: 1.5em;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	text-align: right;
+	a {
+		font-size: .9em;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer-contacto {
+	text-align: left;
 }
 
 .footer-section-2 {
 	background-color: #000;
 	background-image: url("/assets/img/footer-bg.jpg");
 	padding: 3em 0;
+	background-size: cover;
 }
 
 .footer-socials {
@@ -47,3 +58,4 @@
 	height: 30px;
 	margin: 0 .5em;
 }
+
