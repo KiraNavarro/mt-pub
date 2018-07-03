@@ -1,6 +1,6 @@
 /**
- * Home page content
- */
+* Home page content
+*/
 
 .home {
 	margin-top: 3em;
@@ -36,10 +36,6 @@ section {
 	}
 }
 
-.soluciones {
-	padding: 4em;
-}
-
 .soluciones-secciones {
 	display: flex;
 	flex-direction: row;
@@ -61,83 +57,105 @@ section {
 }
 
 /**
- * Page content
- */
+* Page content
+*/
 .page-content {
-  padding: $spacing-unit 0;
-  flex: 1 0 auto;
+	padding: $spacing-unit 0;
+	flex: 1 0 auto;
 }
 
 .page-heading {
-  @include relative-font-size(2);
+	@include relative-font-size(2);
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+	@include relative-font-size(1.75);
 }
 
 .post-list {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
+	margin-left: 0;
+	list-style: none;
+	
+	> li {
+		margin-bottom: $spacing-unit;
+	}
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+	font-size: $small-font-size;
+	color: $grey-color;
 }
 
 .post-link {
-  display: block;
-  @include relative-font-size(1.5);
+	display: block;
+	@include relative-font-size(1.5);
 }
 
 
 
 /**
- * Posts
- */
+* Posts
+*/
 .post-header {
-  margin-bottom: $spacing-unit;
+	margin-bottom: $spacing-unit;
 }
 
 .post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
+	@include relative-font-size(2.625);
+	letter-spacing: -1px;
+	line-height: 1;
+	
+	@include media-query($on-laptop) {
+		@include relative-font-size(2.25);
+	}
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
-
-  h2 {
-    @include relative-font-size(2);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
-    }
-  }
+	margin-bottom: $spacing-unit;
+	
+	h2 {
+		@include relative-font-size(2);
+		
+		@include media-query($on-laptop) {
+			@include relative-font-size(1.75);
+		}
+	}
+	
+	h3 {
+		@include relative-font-size(1.625);
+		
+		@include media-query($on-laptop) {
+			@include relative-font-size(1.375);
+		}
+	}
+	
+	h4 {
+		@include relative-font-size(1.25);
+		
+		@include media-query($on-laptop) {
+			@include relative-font-size(1.125);
+		}
+	}
 }
+
+/**
+* Contacto
+*/
+
+.contacto {
+	text-align: center;
+	padding: 0 5em;
+}
+
+form {
+	margin: 3em 0;
+}
+
+.form-control {
+	border: solid $gray 1px;
+	border-radius: 0px 15px;
+	padding: .8em;
+	font-size: .7em;
+	margin: .5em;
+}
+

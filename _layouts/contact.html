@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container">
+	<div class="contacto">
+		{{ content }}
+	</div>
+	<form>
+		<h3>Escríbenos</h3>
+		<div class="form-row">
+			<div class="col">
+				<div class="form-group">
+					<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" placeholder="E-mail">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="asunto" placeholder="Asunto">
+				</div>
+			</div>
+			<div class="col">
+				<div class="form-group">
+					<textarea class="form-control" id="mensaje" rows="10" placeholder="Mensaje"></textarea>
+				</div>
+			</div>
+		</div>
+		<button type="submit" class="btn submit-btn">Enviar</button>
+	</form>
+</div>
+
+
