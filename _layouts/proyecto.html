@@ -3,15 +3,14 @@ layout: default
 ---
 
 <section class="featured-image">
-	<img src="/assets/img/{{ page.featured-image }}" alt="{{ page.cliente }}">
+	<img src="/assets/img{{ page.permalink }}{{ page.featured-image }}" alt="{{ page.cliente }}">
 </section>
 <div class="container">
 	<section class="cliente">
 		<h2>{{ page.cliente }}</h2>
 		<h3>{{ page.slogan }}</h3>
 		<div class="cliente-intro">
-			<p>{{ page.intro-1 }}</p>
-			<p>{{ page.intro-2 }}</p>
+			<p>{{ page.intro }}</p>
 		</div>
 	</section>
 </div>

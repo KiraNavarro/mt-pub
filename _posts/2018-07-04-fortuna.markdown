@@ -1,0 +1,30 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/fortuna/
+featured-image: fortuna-featured.jpg
+featured-image-thumb: fortuna-featured-thumb.jpg
+cliente: Fortuna
+slogan: “Somos socios, somos equipo, somos... FAMILIA”.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  60 empresarios comprometidos, unidos por el gusto de trabajar como uno solo; partiendo de su ﬁlosofía: “Ganar-dando”, sugirió el desarrollo de un concepto de identidad fresco, moderno y que representara ﬁelmente los valores de este proyecto de networking.
+  <br><br>
+  El proyecto partió de la re-ingeniería de logotipo corporativo, generar un slogan que identiﬁcara y fuera estandarte, así como el desarrollo de elementos de promoción como formatos, presentación y como cúspide: su catálogo de socios y servicios.
+descripcion-1:
+  titulo: Identidad afortunada
+  img: fortuna-1.png
+  body: |
+    La reestructuración del imagotipo para FORTUNA se enfocó en modernizar su símbolo representativo así como un ajuste en su cromática y tipografía principal para lograr modernidad y frescura. Los elementos corporativos desarrollados abarcaron formatos, invitaciones digitales para sesiones de trabajo, presentación semanal y variadas aplicaciones de posicionamiento/promoción.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: Claudia Zavala
+  titulo: Director Consultor BNI Fortuna
+descripcion-2:
+  titulo: Catálogo de Servicios
+  img: fortuna-2.png
+  body: |
+    Resaltar la calidad y calidez de los miebros que conforman a FORTUNA es una necesidad importante a comunicar, cuya ﬁnalidad es compartir en voz de cada negocio, sus cualidades y alcances comerciales, con la posibilidad de generar una atracción eﬁciente y conseguir clientes.
+---
+

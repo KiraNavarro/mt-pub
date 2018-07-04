@@ -1,0 +1,32 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/aqva/
+featured-image: aqva-featured.jpg
+featured-image-thumb: aqva-featured-thumb.jpg
+cliente:  AQVA
+slogan: Vive el poder del agua.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  BioGenius Technology, primer empresa 100% mexicana dedicada al agua fortiﬁcada, lanza su nueva línea ultra puriﬁcada por el método de ósmosis. 
+  <br><br>
+  El reto: brindar un nombre comercial al nuevo producto, así como generar una imagen que reﬂejara no sólo frescura sino resaltar su alta tecnología y propiedades. El resultado: AQVA “Powered water”, una marca sólida lista para competir y destacarse en el mercado de agua embotellada.
+descripcion-1:
+  titulo: Indentidad fortiﬁcada
+  img: aqva-1.png
+  body: |
+    Generar un concepto que uniera teconolgía y permitiera al mercado meta no solo identiﬁcarse, sino además entender a primera vista al producto fue importante. Para ello, nos dimos a la tarea de investigar y estudiar a la competencial existente en el mercado nacional. Es así como nace AQVA, donde el nombre comercial y slogan se presentan a un mercado exigente en búsqueda de mejores alternativas.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Identidad refrescante
+  img: aqva-2.png
+  body: |
+    Resaltar las propiedades como son: frescura, salud y método de ﬁltrado fueron determinantes para el desarrollo de la etiqueta de producto.
+    <br><br>
+    AQVA, es ofertada en presentación de 20 litros como arranque, es así que desrrollamos una etiqueta sencilla pero que comunicara claramente al usuario las propiedades y certiﬁcaciones que brinda. 
+---
+

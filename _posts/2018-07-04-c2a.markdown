@@ -1,29 +1,30 @@
 ---
 layout: proyecto
 color: $orange
-featured-image: c2a/c2a-featured.jpg
-featured-image-thumb: c2a/c2a-featured-thumb.jpg
+permalink: /proyectos/c2a/
+featured-image: c2a-featured.jpg
+featured-image-thumb: c2a-featured-thumb.jpg
 cliente:  Call2Action
 slogan: Empresas felices
 date:   2018-07-04 11:59:22 -0500
-intro-1: |
+intro: |
   La felicidad y la gratitud dentro del ambiente laboral pueden ser detontantes de accciones que llevan a los equipos de trabajo a alcanzar metas entre colaboradores, empleador y clientes. La identidad para Call2action invita a poner en acción estos movimientos.
-intro-2: |
+  <br><br>
   Motivar, impulsar e incluir por medio de un concepto universal, actual y que reﬂejara los ideales y propuesta de valor que Call2action propone a sus clientes fueron parte de los requisitos para el desarrollo del imagotipo representativo de la marca.
 descripcion-1:
   titulo: Energía Pura
-  img: c2a/c2a-1.png
+  img: c2a-1.png
   body: |
     Adriana Castro, Directora General y conferencista líder del proyecto, compartió a MT lo importante que era generar un concepto que se destacara por su frescura, evitando usos de elementos tradicionales como la ﬁgura humana o expresiones faciales. Tras una participación activa de Adriana en el proceso creativo, surge Call2action, con una imagen cargada de energía, dinamismo y motivante.
-descripcion-2:
-  titulo: Interacción al momento
-  img: c2a-2.png
-  body: |
-    Parte medular de las conferencias que imparte Call2action, consta en brindar herramientas de trabajo a los asistentes; quienes con ejercicios de integración y autoreconocimiento plasman sus fortalezas y áreas de oportunidad. Elementos como material de trabajo que no solo ayuden sino conserven la línea fresca y mantenimiento de la marca son básicos.
 quote: 
   body: |
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
   autor: Adriana Castro
   titulo: Dir. Call2action / Conferencista 
+descripcion-2:
+  titulo: Interacción al momento
+  img: c2a-2.png
+  body: |
+    Parte medular de las conferencias que imparte Call2action, consta en brindar herramientas de trabajo a los asistentes; quienes con ejercicios de integración y autoreconocimiento plasman sus fortalezas y áreas de oportunidad. Elementos como material de trabajo que no solo ayuden sino conserven la línea fresca y mantenimiento de la marca son básicos.
 ---
 

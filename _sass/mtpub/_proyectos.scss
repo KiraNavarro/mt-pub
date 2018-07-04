@@ -1,7 +1,11 @@
 .featured-image {
 	width: 100%;
 	background-color: $light-gray;
-	height: 400px;      
+	height: 400px;  
+	img {
+		width: 100%;
+		height: 100%;
+	}    
 }
 
 .cliente {
@@ -14,8 +18,8 @@
 		font-size: 2em;
 	}
 	.cliente-intro {
-		display: flex;
-		flex-direction: row;
+		width: 65%;
+		margin: auto;
 		margin-top: 3em;
 		p {
 			padding: 0 3em;
