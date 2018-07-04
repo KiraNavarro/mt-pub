@@ -49,6 +49,7 @@ $on-laptop:        800px !default;
 */
 $gray: #404041;
 $light-gray: #6f7070;
+$dark-gray: #2F242F;
 $btn-light-gray: #F5F5F7;
 $pink: #D9166F;
 $orange: #f37920;
@@ -62,11 +63,9 @@ $orange: #f37920;
   "mtpub/buttons",
   "mtpub/header",
   "mtpub/nav",
-  "mtpub/footer"
+  "mtpub/footer",
+  "mtpub/agencia",
+  "mtpub/talentos",
+  "mtpub/proyectos"
 ;
-
-.container {
-	padding: 0 10em;
-	margin: auto !important;
-}
 

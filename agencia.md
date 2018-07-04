@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: agencia
 title: Agencia
 permalink: /agencia/
 ---
 
-Test--- this is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Cerebros inquietos
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+MT es una agencia fresca: en sus procesos, formatos de trabajo y propuesta.
+Creada en 2012 por diseñadores con el ﬁn de ofrecer estrategias y soluciones de publicidad
+apoyados en las ramas más importantes del diseño gráﬁco, programación y edición.
+Los proyectos en los que participamos son desarrollados por expertos en su área.
+Nuestro estandarte es: “Cerebros inquietos”, buscamos constantemente nuevas rutas
+y alternativas, evolucionar con cada proyecto y aportarle un valor agregado.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Catálogo de Servicios
+Nuestra propuesta abarca desde la planeación estratégica y la concepción
+hasta el diseño y desarrollo. En todas las fases del proyecto, mantener una cooperación
+cercana y conﬁable con nuestros clientes nos permite comprender cada proyecto,
+**vivimos y hacemos nuestro cada proyecto.**

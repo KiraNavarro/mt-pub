@@ -1,18 +1,17 @@
 ---
-layout: page
+layout: talento
 title: Talento
 permalink: /talento/
 ---
 
-Test--- this is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Lo que te espera
+El equipo de creativos y especialistas trabaja con pasión en todo momento,
+nos encanta resolver cada desafío a detalles.
+Antes de comenzar un trabajo, deﬁnimos objetivos y las peculiaridades de cada proyecto.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Encanto personal
+Contamos con la experiencia y libertad necesarias para el desarrollo e interpretación;
+esto es importante para crear nuevas ideas y darle un toque personal a los proyectos.
+Cada uno de nosotros aporta ideas y responsabilidades de acuerdo a su talento.
 
 
-[jekyll-organization]: https://github.com/jekyll

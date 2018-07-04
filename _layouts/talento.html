@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="container">
+	<section>
+		{{ content }}
+	</section>
+	<section class="talentos">
+		{% for talento in site.data.talentos %}
+			<div class="talento">
+				<div class="talento-info">
+					<h3>{{ talento.nombre }}</h3>
+					<h5>{{ talento.titulo }}</h5>
+					<div class="talento-descripcion"><b>{{ talento.descripcion }}</b></div>
+					<p>{{ talento.body }}</p>
+					<span class="talento-especialidad">Especialidad: {{ talento.especialidad }}</span>
+				</div>
+				<div class="talento-img">
+					<img src="/assets/img/talento/{{ talento.img }}" alt="{{ talento.nombre }}">
+				</div>
+			</div>
+		{% endfor %}
+	</section>
+</div>
+<section class="skew-section">
+	<div class="skew-wrap">
+		<div class="unskew-content">
+			<h2>Queremos saber de tí</h2>
+			<p>Ahora que sabes un poco de nosotros... cuéntanos de tí y tu proyecto.<br>¡Estas a un click para ser parte de MT!</p>
+			<a href="contacto" class="btn-custom-gray-transparent">Escríbenos</a>
+		</div>
+	</div>
+</section>

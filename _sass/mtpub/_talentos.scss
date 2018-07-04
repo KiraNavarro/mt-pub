@@ -1,0 +1,35 @@
+.talento {
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 0;
+	&:nth-child(odd) {
+		flex-direction: row;
+		text-align: right;
+	}
+	&:nth-child(even) {
+		flex-direction: row-reverse;
+		text-align: left;
+	}
+	.talento-info {
+		width: 70%;
+		h3{
+			margin-bottom: 0;
+		}
+		h5 {
+			font-size: .9em;
+		}
+		.talento-descripcion {
+			margin: 1em 0;
+		}
+	}
+	.talento-img {
+		width: 300px;
+		height: 409px;
+		background-color: $light-gray;
+		img {
+			width: 300px;
+			height: 409px;
+			background-color: $light-gray;
+		}
+	}
+}
