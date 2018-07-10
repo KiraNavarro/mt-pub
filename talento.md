@@ -2,6 +2,7 @@
 layout: talento
 title: Talento
 permalink: /talento/
+nav-order: 3
 ---
 
 ## Lo que te espera

@@ -1,3 +1,54 @@
+.proyectos {
+	padding: 7em 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	.post-item {
+		display: flex;
+		flex-direction: column;
+		margin: 0 1em 5em 1em;
+		width: 300px;
+		.post-img {
+			width: 300px;
+			height: 300px;
+			background-color: $light-gray;
+			border: solid .5em $pink;
+			position: relative;
+			z-index: 1;
+			margin-bottom: 2.5em;
+			&:after {
+				content: "";
+				background-color: $pink;
+				width: 50px;
+				height: 50px;
+				bottom: -30px;
+				left: 120px;
+				position: absolute;
+				transform: rotate(45deg);
+				z-index: -1;
+			}
+		}
+		
+		.post-excerpt {
+			text-align: left;
+			h2 {
+				font-size: 1em;
+				margin: 0;
+			}
+			h3 {
+				font-size: 1.2em;
+				margin: 0 0 .8em;
+				font-weight: bold;
+			}
+
+		}
+	}
+}
+
+
+//Single
 .featured-image {
 	width: 100%;
 	background-color: $light-gray;

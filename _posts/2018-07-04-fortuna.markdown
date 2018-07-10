@@ -7,6 +7,7 @@ featured-image-thumb: fortuna-featured-thumb.jpg
 cliente: Fortuna
 slogan: “Somos socios, somos equipo, somos... FAMILIA”.
 date:   2018-07-04 11:59:22 -0500
+servicio: Catálogo de Servicios
 intro: |
   60 empresarios comprometidos, unidos por el gusto de trabajar como uno solo; partiendo de su ﬁlosofía: “Ganar-dando”, sugirió el desarrollo de un concepto de identidad fresco, moderno y que representara ﬁelmente los valores de este proyecto de networking.
   <br><br>
@@ -28,3 +29,4 @@ descripcion-2:
     Resaltar la calidad y calidez de los miebros que conforman a FORTUNA es una necesidad importante a comunicar, cuya ﬁnalidad es compartir en voz de cada negocio, sus cualidades y alcances comerciales, con la posibilidad de generar una atracción eﬁciente y conseguir clientes.
 ---
 
+Una iniciativa para intercambio comercial de servicios de los socios de BNI Fortuna con la embajada de los Emiratos Árabes Unidos en México requirió del desarrollo de un “Catálogo Ejecutivo de Servicios”.
