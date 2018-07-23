@@ -74,6 +74,10 @@ section {
 	
 }
 
+section.section-intro {
+	margin-top: 200px !important;
+}
+
 .container {
 	margin: auto !important;
 	width: 85%;
@@ -115,7 +119,6 @@ section {
 	.skew-wrap {
 		transform: skewY(-1deg);
 		background: url("./img/skew-background.jpg") ;
-		filter: saturate(35%);
 		background-size: cover;
 	}
 	.unskew-content {

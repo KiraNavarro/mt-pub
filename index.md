@@ -6,9 +6,4 @@ layout: home
 title: Bienvenido a MT
 order: 5
 ---
-Desde 2012 MT se ha posicionado como una agencia de comunicación gráﬁca multidisciplinaria; impactando al mercado con conceptos frescos, funcionales y versátiles.
 
-Nuestras propuestas han alcanzado diversos sectores comerciales tanto para MiPyMEs como a
-empresas de presencia internacional gracias a la ﬂexibilidad de nuestros sistemas de trabajo.
-
-[Conoce MT](https://www.google.com)

@@ -26,5 +26,6 @@ descripcion-2:
   img: c2a-2.png
   body: |
     Parte medular de las conferencias que imparte Call2action, consta en brindar herramientas de trabajo a los asistentes; quienes con ejercicios de integración y autoreconocimiento plasman sus fortalezas y áreas de oportunidad. Elementos como material de trabajo que no solo ayuden sino conserven la línea fresca y mantenimiento de la marca son básicos.
+servicio: Identidad Corporativa
 ---
-
+La felicidad y la gratitud dentro del ambiente laboral pueden ser detontantes de accciones que llevan a los equipos de trabajo a alcanzar metas.

@@ -1,6 +1,12 @@
 /**
 * Site header
 */
+
+header {
+	position: relative;
+	z-index: 2;
+}
+
 .site-header {
 	min-height: $spacing-unit * 1.865;
 	background-image: url("/assets/img/header-1.jpg");

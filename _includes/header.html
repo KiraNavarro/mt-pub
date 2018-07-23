@@ -1,8 +1,4 @@
 <header role="banner">
-	<!-- To get the nav -->
-	{%- assign default_paths = site.pages | map: "path" -%}
-	{%- assign page_paths = site.header_pages | default: default_paths -%}
-	<!-- -->
 	<div class="decoBoxBack">
 			<div class="site-header decoBoxFront">
 				<div class="site-logo">
@@ -16,16 +12,11 @@
 	</div>
 	<div class="blog-navbar">
 		<div class="nav-container transform">
-			{%- if page_paths -%}
-			<nav>
-				{%- for path in page_paths -%}
-					{%- assign my_page = site.pages | where: "path", path | first -%}
-					{%- if my_page.title -%}
-					<a class="nav-link menu-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-					{%- endif -%}
-				{%- endfor -%}
-			</nav>
-			{%- endif -%}
+		<nav>
+			{% for item in site.data.nav.docs %}
+				<a class="nav-link menu-item" href="{{ site.url }}/{{ item.url }}">{{ item.title }}</a>
+			{% endfor %}
+		</nav>
 		</div>
 	</div>
 </header>

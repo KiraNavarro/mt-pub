@@ -1,0 +1,8 @@
+.parsley-errors-list {
+	list-style: none;
+	font-size: .8em;
+	.parsley-required, .parsley-type, .parsley-minlength {
+		color: red;
+	}
+}
+

@@ -1,0 +1,31 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/dexos/
+featured-image: dexos-featured.jpg
+featured-image-thumb: dexos-featured-thumb.jpg
+cliente:  Dexos
+slogan: Balance corporativo.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  Conceptualizar y presentar al mercado a un grupo de médicos especializados en la prevención, mantenimiento y cuidado de la salud dieron píe a la búsqueda de un nombre comercial, diferente, innovador y que en su raíz tuviera esta primicia.
+  <br><br>
+  Es así como Dexos, surge del vocablo griego “dexia”=correcto; donde la correcta praxis y el correcto funcionamiento del cuerpo de los pacientes de la clínca son el estandarte que se representa en una identidad armónica y destacable del giro de salud.
+descripcion-1:
+  titulo: Pasos ﬁrmes
+  img: dexos-1.png
+  body: |
+    Dexos “Balance corporal” requirió de elementos de papelería que uniﬁcaran el concepto desarrollado para el conjunto de especialistas médicos; por lo que la identidad se apoya de membrete, tarjetas de presentación, ﬁrma de correo animada y receta médica, que conforman un grupo de artes homologados.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Balance digital
+  img: dexos-2.png
+  body: |
+   Parte de las necesidades del proyecto, constó del desarrollo de un sitio web que se uniﬁcara al concepto propuesto; por lo que una landig page limpia, amable y que se destacara de las clínicas tradicionales fue fundamental para dexos.com.mx.
+servicio: Identidad / Desarrollo Web
+---
+Conceptualizar y presentar al mercado a un grupo de médicos especializados en la prevención, mantenimiento y cuidado de la salud dieron píe a la búsqueda de un nombre comercial, diferente, innovador.

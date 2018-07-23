@@ -3,12 +3,16 @@ layout: default
 ---
 
 <div class="home">
-	<section class="intro container">
+	<section class="intro container section-intro">
 		{%- if page.title -%}
 			<h1 class="page-heading">{{ page.title }} </h1>
 		{%- endif -%}
 		<div class="home-content">
-			{{ content }}
+			<p>Desde 2012 MT se ha posicionado como una agencia de comunicación gráﬁca multidisciplinaria; impactando al mercado con conceptos frescos, funcionales y versátiles.
+
+			Nuestras propuestas han alcanzado diversos sectores comerciales tanto para MiPyMEs como a
+			empresas de presencia internacional gracias a la ﬂexibilidad de nuestros sistemas de trabajo.</p>
+			<a href="{{site.url}}/agencia">Conoce MT</a>
 		</div>
 	</section>
 	<section class="home-proyectos container">
@@ -17,7 +21,7 @@ layout: default
 			<div class="post-item">
 				<div class="post-img">
 					<a class="post-link" href="{{ post.url | relative_url }}">
-						<img src="/assets/img/proyectos/{{ post.permalink }}/{{ post.featured-image-thumb }}" alt="{{ post.cliente }}">
+						<img src="/assets/img{{ post.permalink }}{{ post.featured-image-thumb }}" alt="{{ post.cliente }}">
 					</a>
 				</div>
 				<div class="post-excerpt">

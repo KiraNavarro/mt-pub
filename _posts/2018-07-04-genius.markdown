@@ -1,0 +1,31 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/genius/
+featured-image: genius-featured.jpg
+featured-image-thumb: genius-featured-thumb.jpg
+cliente:  Genius
+slogan: Diseños refrescantes.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  GENIUS, empresa 100% mexicana dedicada a ofrecer la primer agua embotellada con nanotecnología en el país, sus cualidades químicas como partículas de plata, minerales y aminoácidos no solo refrescan, sino que fortalecen al sistema.
+  <br><br>
+  Tenemos el honor de participar con GENIUS en el rediseño de su empaque para retail, el cual presentó el reto de reﬂejar vitalidad, modernidad y frescura, así como pautas especiales para distrubuidores de la marca como un hanger para las botellas.
+descripcion-1:
+  titulo: Embalaje genial
+  img: genius-1.png
+  body: |
+    El proyecto: rediseñar el antiguo embalaje, el cual no solo llega a los distrubuidores de GENUIS, sino a los consumidores que participan de su programa de entrega mensual, inﬂuencers y embajadores de marca a lo largo y ancho del país. El resultado: un bello “rompecabezas” de cartón que comparte e invita a ser parte de la experiencia de consumo de GENIUS.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Con el agua al cuello
+  img: genius-2.png
+  body: |
+    Compartir a los comensales que conviven con el producto en las mesas de sus centros de reunión favoritos, e invitarlos a nutrir su cuerpo al tiempo que degustan deliciosos platillos; son parte de la iniciativa de GENIUS donde abrazar a la botella con un hanger que comunicara estas ideas dieron como resultado un proyecto divertido, cálido e informativo.
+servicio: Emapaque / Hanger
+---
+Tenemos el honor de participar con GENIUS en el rediseño de su empaque para retail, el cual presentó el reto de reﬂejar vitalidad, modernidad y frescura.

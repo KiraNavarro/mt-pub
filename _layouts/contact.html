@@ -3,26 +3,33 @@ layout: default
 ---
 
 <div class="container">
-	<div class="contacto">
+	<section class="contacto section-intro">
 		{{ content }}
-	</div>
-	<form>
+	</section>
+	<form data-parsley-validate class="contacto" action="https://formspree.io/kira.navarro@gmail.com" method="POST" id="ajax-contact">
 		<h3>Escríbenos</h3>
 		<div class="form-row">
 			<div class="col">
 				<div class="form-group">
-					<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" minlength="6" required>
 				</div>
 				<div class="form-group">
-					<input type="email" class="form-control" id="email" placeholder="E-mail">
+					<input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" id="asunto" placeholder="Asunto">
+					<input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
 				</div>
 			</div>
 			<div class="col">
 				<div class="form-group">
-					<textarea class="form-control" id="mensaje" rows="10" placeholder="Mensaje"></textarea>
+					<textarea 
+						class="form-control" id="message"
+						name="message"
+						rows="10" 
+						placeholder="Mensaje"
+						minlength="6"
+						required
+					></textarea>
 				</div>
 			</div>
 		</div>

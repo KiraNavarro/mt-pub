@@ -1,0 +1,113 @@
+/* Movil */
+@media (max-width: 460px) {
+	.home-proyectos {
+		.post-item {
+			flex-direction: column !important;
+			justify-content: center;
+			align-items: center;
+			.post-img {
+				margin: 0 !important; 
+				&:after {
+					top: 300px !important;
+					right: 200px !important;
+				}
+				&:before {
+					top: 300px !important;
+					left: 200px !important;
+				}
+			}
+			.post-excerpt {
+				margin: 3em 1em !important;
+				padding: 0 2em;
+				width: 100% !important;
+			}
+		}
+	}
+	
+	
+	.soluciones-secciones {
+		flex-direction: column;
+	}
+	
+	.familia-items {
+		flex-direction: column;
+	}
+	
+	.footer-socials {
+		flex-direction: column;
+		p, social-icons, a {
+			margin: 1em;
+		}
+	}
+	
+	.servicios-complementarios {
+		flex-direction: column;
+		.servicios-list {
+			width: 100%;
+		}
+	}
+	
+	.caracteristica {
+		flex-direction: column-reverse !important;
+		align-items: center;
+		text-align: left !important;
+		margin: 4em 0;
+	}
+	
+	.hablar-items {
+		flex-direction: column;
+	}
+	
+	.fundadores{
+		flex-direction: column-reverse;
+		justify-content: center;
+		
+		.fundadores-data {
+			width: 100%;
+			text-align: center !important;
+		}
+		
+		.fundadores-img {
+			margin: 0 0 3em;
+		}
+	}
+	
+	.talento {
+		flex-direction: column-reverse !important;
+		.talento-info {
+			width: 100%;
+			margin-top: 2em;
+			text-align: left !important;
+		}
+	}
+	
+	.contacto {
+		padding: 0;
+	}
+	
+	.cliente-intro {
+		width: 100% !important;
+		p {
+			padding: 0 !important;
+		}
+	}
+	
+	.descripcion {
+		flex-direction: column !important;
+		justify-content: flex-start;
+		position:  static;
+		min-height: 600px !important;
+		padding: 2em;
+		.descripcion-body {
+			width: 100%;
+			padding: 0;
+		}
+		img {
+			position: static;
+		}
+	}
+	
+	.descripcion-dark {
+		margin-bottom: 13em;
+	}
+}

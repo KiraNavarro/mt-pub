@@ -1,9 +1,9 @@
 ---
 layout: proyecto
 color: $orange
-permalink: /proyectos/salvadorfootware/
-featured-image: salvadorfootware-featured.jpg
-featured-image-thumb: salvadorfootware-featured-thumb.jpg
+permalink: /proyectos/salvadorfootwear/
+featured-image: salvadorfootwear-featured.jpg
+featured-image-thumb: salvadorfootwear-featured-thumb.jpg
 cliente:  Salvador Nuñez Foot Ware
 slogan: ¡Ponle vida y actitud a tus pies!
 date:   2018-07-04 11:59:22 -0500
@@ -13,7 +13,7 @@ intro: |
   SNFW logró posicionarse rápidamente en el gusto de sus más de 120,000 seguidores y atrajo la atención de importante cantidad de clientela nueva,  lista para “dar el paso” junto con él en este proyecto y marcar tendencia en el mercado masculino.
 descripcion-1:
   titulo: Empaque Foot Wear
-  img: salvadorfootware-1.png
+  img: salvadorfootwear-1.png
   body: |
    El desarrollo de un empaque con toques retro, surge de la mente de Salvador.
    <br><br>
@@ -25,8 +25,9 @@ quote:
   titulo: Blogger / Dir. SNFW 
 descripcion-2:
   titulo: FOOT WEAR
-  img: salvadorfootware-2.png
+  img: salvadorfootwear-2.png
   body: |
     El respaldo de la ﬁrma “Salvador Nuñez” permitió generar de forma ﬂuida un sub-logo que acompañará a la marca ya posicionada. El imagotipo desarrollado se suma a la marca principal usando líneas limpias, claras y modernas; aﬁnes a la propuesta de calzado que presenta Salvador Nuñez.
+servicio: Vestido de empaque
 ---
-
+Salvador Nuñez, top blogger mexicano entra al mundo de la moda con su primer línea de calzado masculina; el resultado: “Salvador Nuñez Footwear”.

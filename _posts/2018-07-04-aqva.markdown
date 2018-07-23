@@ -27,6 +27,7 @@ descripcion-2:
   body: |
     Resaltar las propiedades como son: frescura, salud y método de ﬁltrado fueron determinantes para el desarrollo de la etiqueta de producto.
     <br><br>
-    AQVA, es ofertada en presentación de 20 litros como arranque, es así que desrrollamos una etiqueta sencilla pero que comunicara claramente al usuario las propiedades y certiﬁcaciones que brinda. 
+    AQVA, es ofertada en presentación de 20 litros como arranque, es así que desrrollamos una etiqueta sencilla pero que comunicara claramente al usuario las propiedades y certiﬁcaciones que brinda.
+servicio: Identidad / Etiqueta
 ---
-
+BioGenius Technology, primer empresa 100% mexicana dedicada al agua fortiﬁcada, lanza su nueva línea ultra puriﬁcada.

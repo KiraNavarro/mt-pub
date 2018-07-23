@@ -31,13 +31,15 @@
 			text-align: left;
 			.post-img {
 				margin-right: 2.2em;
+				position: relative;
+				z-index: 1;
 				&:after {
 					content: "";
 					background-color: $pink;
 					width: 50px;
 					height: 50px;
 					top: 90px;
-					right: -30px;
+					right: -25px;
 					position: absolute;
 					transform: rotate(45deg);
 					z-index: -1;
@@ -49,31 +51,30 @@
 			text-align: right;
 			.post-img {
 				margin-left: 2.2em;
+				position: relative;
+				z-index: 1;
 				&:before {
 					content: "";
 					background-color: $pink;
 					width: 50px;
 					height: 50px;
 					top: 90px;
-					left: -30px;
+					left: -25px;
 					position: absolute;
 					transform: rotate(45deg);
 					z-index: -1;
 				}
 			}
 		}
-		.post-img {
+		
+		.post-img img {
+			border: solid 10px $pink;
 			width: 400px;
-			height: 250px;
-			background-color: $light-gray;
-			width: 50%;
-			border: solid .5em $pink;
-			position: relative;
-			z-index: 1;
 		}
 		
 		.post-excerpt {
 			width: 50%;
+			margin: 100px 50px;
 			h2 {
 				font-size: 1em;
 				margin: 0;
@@ -125,8 +126,10 @@
 * Page content
 */
 .page-content {
-	padding: $spacing-unit 0;
 	flex: 1 0 auto;
+	position: relative;
+	z-index: 1;
+	top: -70px;
 }
 
 .page-heading {
@@ -203,24 +206,4 @@
 	}
 }
 
-/**
-* Contacto
-*/
-
-.contacto {
-	text-align: center;
-	padding: 0 5em;
-}
-
-form {
-	margin: 3em 0;
-}
-
-.form-control {
-	border: solid $gray 1px;
-	border-radius: 0px 15px;
-	padding: .8em;
-	font-size: .7em;
-	margin: .5em;
-}
 

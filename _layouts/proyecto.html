@@ -19,8 +19,9 @@ layout: default
 		<h4>{{ page.descripcion-1.titulo }}</h4>
 		<p>{{ page.descripcion-1.body }}</p>
 	</div>
-	<img src="/assets/img/proyectos/{{ page.descripcion-1.img }}" alt="{{ page.descripcion-1.titulo }}">
+	<img src="/assets/img{{ page.permalink }}{{ page.descripcion-1.img }}" alt="{{ page.descripcion-1.titulo }}">
 </section>
+<!--
 <div class="container">
 	<section class="quote-wrapper">
 		<h3>En palabras del cliente</h3>
@@ -33,18 +34,19 @@ layout: default
 		</div>
 	</section>
 </div>
+-->
 <section class="descripcion descripcion-dark">
 	<div class="descripcion-body">
 		<h4>{{ page.descripcion-2.titulo }}</h4>
 		<p>{{ page.descripcion-2.body }}</p>
 	</div>
-	<img src="/assets/img/proyectos/{{ page.descripcion-2.img }}" alt="{{ page.descripcion-2.titulo }}">
+	<img src="/assets/img{{ page.permalink }}{{ page.descripcion-2.img }}" alt="{{ page.descripcion-2.titulo }}">
 </section>
 <div class="container">
 	<section>
 		<h2>Tenemos más para ti.</h2>
 		<p>Queremos compartirte más de nuestro trabajo, y entonces sueñes junto a nosotros.</p>
-		<a href="proyectos" class="btn-custom-pink">Proyectos</a>
+		<a href="{{site.url}}/proyectos" class="btn-custom-pink">Proyectos</a>
 	</section>
 </div>
 <section class="skew-section">
@@ -52,7 +54,7 @@ layout: default
 		<div class="unskew-content">
 			<h2>Esto apenas empieza</h2>
 			<p>El universo de posibilidades se expande segundo a segundo. Explora con nosotros y descubre el abanico de herramientas y soluciones que tenemos para dar vida a ese proyecto que es único y especial para ti.</p>
-			<a href="contacto" class="btn-custom-gray-transparent">Diseñemos juntos</a>
+			<a href="{{site.url}}/contacto" class="btn-custom-gray-transparent">Diseñemos juntos</a>
 		</div>
 	</div>
 </section>

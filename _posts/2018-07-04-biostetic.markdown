@@ -26,5 +26,6 @@ descripcion-2:
   img: biostetic-2.png
   body: |
     Resaltamos las virtudes de BIOSTETIC con materiales acordes a la identidad. El resultado: dos artes que permiten al usuario acercarse a la clínica y comenzar la experiencia dental que ofrece.
+servicio: Identidad Corporativa
 ---
-
+Para la nueva imagen de la clínica dental desarrollamos un concepto amable a la vista y fuera de la tendencia del giro médico dental.
