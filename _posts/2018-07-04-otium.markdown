@@ -1,0 +1,31 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/otium/
+featured-image: otium-featured.jpg
+featured-image-thumb: otium-featured-thumb.jpg
+cliente:  OTIUM
+slogan: OTIUM tape / Cinta Kinesiológica.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  Las cintas kinesiológicas son una producto en tendencia en el mercado de deportistas, terapeutas y especialistas del deporte que ayudan al paciente a reforzar y reducir daños en músculos y ligamentos.
+  <br><br>
+  OTIUM Rehabilitación consciente de este fenómeno comercial, lanza al mercado su propia cinta kinesiológica con la ﬁnalidad de participar en la captación de clientes que son aﬁnes al uso de las mismas.
+descripcion-1:
+  titulo: Empaque versátil
+  img: otium-1.png
+  body: |
+    El desarrollo de diversos un arte que vistiera el empaque del nuevo producto de OTIUM Rehabilitación y se destacara en los anaqueles donde convive con su competencia directa, requirió revisar y generar una imagen joven, divertida, colorida y que fuera empática con los consumidores de las cintas.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Identidad saludable
+  img: otium-2.png
+  body: |
+    Nos dimos a la tarea de comunicar nó solo los datos de contacto, si no mostrar bienestar adaptando la identidad de OTIUM Rehabilitación en sus tarjetas de presentación.
+servicio: Empaque
+---
+OTIUM Rehabilitación lanza al mercado su propia cinta kinesiológica con la ﬁnalidad de participar en la captación de clientes que son aﬁnes al uso de las mismas.

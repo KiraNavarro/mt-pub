@@ -1,0 +1,31 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/sqbags/
+featured-image: sqbags-featured.jpg
+featured-image-thumb: sqbags-featured-thumb.jpg
+cliente:  SQbags
+slogan: Explorando el mundo.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  SQ Bags surge del sueño de un emprendedor aﬁcionado a viajar, conocer nuevos territorios, ampliar experiencias y hacer de sus viajes un placer en todo momento. 
+  <br><br>
+  El desarrollo para SQ Bags arrancó con un nombre ya establecido, sin embargo reﬂejar por medio de un imagotipo la sensación de movimiento y aventurarse a un sin ﬁn de destinos, nos llevaron a consolidar la imagen explotando a una maleta, producto principal; unido a un camino como los elementos representativos de la marca.
+descripcion-1:
+  titulo: Viajes seguros
+  img: sqbags-1.png
+  body: |
+    SQ Bags, al ofrecer al viajero incansable una oferta de productos que abarcan mochilas, maletas y artículos de seguridad; requirió para estos últimos el desarrollo de blisters que además de proteger, muestren a primera vista la funcionalidad de cada artículo.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Reﬂejando seguridad
+  img: sqbags-2.png
+  body: |
+    Parte de las cualidades que distinguen a parte de los artículos de SQ Bags consta de la integración de bandas reﬂejentes, que además de ofrecer diseño permiten al viajero ser visible mientras se desplaza con bajas condiciones de luz. Comunicar dichas cualidades al cliente se realizó mediante un anuncio promocional que destaca las bandas reﬂejantes.
+servicio: Identidad / Blisters
+---
+SQ Bags surge del sueño de un emprendedor aﬁcionado a viajar, conocer nuevos territorios, ampliar experiencias y hacer de sus viajes un placer en todo momento.

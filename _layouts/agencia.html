@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<div class="container">
+	<section class="agencia-intro section-intro">
+		{{ content }}
+	</section>
+</div>
+
+<section class="section-servicios">
+		{% for servicio in site.data.servicios %}
+		<div class="servicio">
+			<img src="/assets/img/servicios/{{ servicio.img }}" alt="{{ servicio.title }}">
+			<h3>{{ servicio.title }}</h3>
+			<p>{{ servicio.body }}</p>
+		</div>
+		{% endfor %}
+</section>
+
+<div class="container">
+	<section>
+		<img src="/assets/img/servicios/complementarios.png" alt="Servicios Complementarios">
+		<h4>Servicios Complementarios</h4>
+		<div class="servicios-complementarios">
+			<div class="servicios-list">
+				<ul>
+					<li>Desarrollo/vestido de empaque, embalaje y POP.</li>
+					<li>Estrategias de Marketing Digital.</li>
+					<li>Estrategias de Marketing BTL.</li>
+					<li>Servicio de Fotografía Publicitaria.</li>
+					<li>Desarrollo de Apps.</li>
+				</ul>
+			</div>
+			<div class="servicios-list">
+				<ul>
+					<li>Artículos Promocionales.</li>
+					<li>Impresión Digital / Offset.</li>
+					<li>Estrategias en Programas de Lealtad.</li>
+					<li>Talento: Voz, Actores y Edecanes.</li>
+					<li>Stands y Tecnología para Ferias y Expos.</li>
+				</ul>
+			</div>
+			
+		</div>
+	</section>
+	
+</div>
+<section class="skew-section">
+	<div class="skew-wrap">
+		<div class="unskew-content">
+			<h2>Todos para uno</h2>
+			<p>Un colectivo creativo trabajando como uno solo. Apreciamos la experiencia de cada miembro del equipo, para lograr esto, trabajamos: diseñadores, web masters, postproductores, fotógrafos, mercadólogos.... todos pensadores e innovadores en su área de especialidad. La planeación, estructura y participación nos hace trabajar en lo que lo que nos apasiona.</p>
+			<a href="{{site.url}}/talento" class="btn-custom-gray-transparent">Conoce a la familia</a>
+		</div>
+	</div>
+</section>
+
+<section class="caracteristicas-mt">
+	<div class="caracteristica">
+		<div class="caracteristica-data">
+			<h3>Calidez ante todo</h3>
+			<p>Hacer lo que nos apasiona y aportar un toque personal nos distingue, sin embargo, sabemos nuestra misión: explotar las virtudes y cubrir las necesidades de nuestros clientes ante los suyos. Para crear un concepto vivo, que cumpla su ﬁnalidad y además logre el impacto buscado es necesario comprometernos y hacer nuestro cada proyecto en el que participamos, esto nos ha valido no solo la conﬁanza de nuestros clientes; si no su cariño y lealtad.</p>
+		</div>
+		<div class="caracteristica-img">
+			<img src="/assets/img/servicios/calidez.jpg" alt="Calidez">
+		</div>
+	</div>
+	<div class="caracteristica">
+		<div class="caracteristica-data">
+			<h3>Múltiples perspectivas</h3>
+			<p>Nos encantan las nuevas ideas y por lo tanto, estamos felices contar con diversos estilos de vida, gustos y opinión en nuestra familia. MT es multidisciplinario pero igualmente multicultural, lo que nos une es nuestras ganas de vivir y hacer lo que amamos.</p>
+			<a href="{{site.url}}/talento" class="btn-custom-pink">Equipo MT</a>
+		</div>
+		<div class="caracteristica-img">
+			<img src="/assets/img/servicios/perspectivas.jpg" alt="Perspectivas">
+		</div>
+		
+	</div>
+</section>
+<div class="container">
+	<section>
+		<h3>Hablar, hablar y hablar</h3>
+		<p>Uno de nuestros principios base es la comunicación constante. El equipo de MT trabaja contínuamente de forma estrecha durante todo el proyecto: Internamente: entre los especialistas colaborando en un proyecto; y Externamente: haciendo al cliente parte del proceso creativo desde el arranque y hasta la entrega de los artes desarrollados.</p>
+		<div class="hablar-items">
+			<div>
+				<h4>Comprobación</h4>
+				<p>Mantener todo a la vista es importante, esto asegura la calidad de nuestro trabajo. Todos ayudan a validar la información durante todo el proceso de trabajo.</p>
+			</div>
+			<div>
+				<h4>Integración</h4>
+				<p>Involucrar a nuestros clientes y hacerlos parte del ﬂujo de trabajo garantiza una visión completa y duradera del proyecto; lo que aumenta la calidad del resultado.</p>
+			</div>
+			<div>
+				<h4>Anticipación</h4>
+				<p>Nuestro trabajo no radica sólo en diseñar lo solicitado y entregar cada publicación. Cuidamos a nuestros clientes ofreciendoles sugerencias y alternativas para el futuro.</p>
+			</div>
+		</div>
+	</section>
+	<section class="fundadores">
+		<div class="fundadores-data">
+			<h3>Jatzibe y Josadad</h3>
+			<p>MT Publicidad es una agencia de comunicación gráﬁca dirigida por los propietarios Jatzibe Márquez y Josadad Torres desde 2012. Los socios que anteriormente trabajaron como creativos decidieron después de muchos años de trabajo en el sector de artes gráﬁcas emprender su propio concepto de agencia de comunicación gráﬁca con nuevos ﬂujos de trabajo, estándares de calidad, procesos sin complicaciones y relaciones cálidas y conﬁables con los clientes. Hoy la familia creativa de MT está satisfecha con los clientes ganados, muchos proyectos realizados y un futuro prometedor.</p>
+		</div>
+		<div class="fundadores-img">
+			<img src="/assets/img/servicios/jatzibe-josadad.jpg" alt="Jatzibe y Josadad">
+		</div>
+	</section>
+	<section>
+		<h2>Da el paso</h2>
+		<p>Nos encanta intercambiar ideas y generar a tu lado nuevas experiencias.<br>¡Deberíamos conocernos el uno al otro!</p>
+		<a href="{{site.url}}/contacto" class="btn-custom-pink">Escríbenos</a>
+	</section>
+	
+</div>

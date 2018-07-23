@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="proyectos container">
+	{%- if site.posts.size > 0 -%}
+		{%- for post in site.posts -%}
+			<div class="post-item">
+				<div class="post-img">
+					<a class="post-link" href="{{ post.url | relative_url }}">
+						<img src="/assets/img{{ post.permalink }}{{ post.featured-image-thumb }}" alt="{{ post.cliente }}">
+					</a>
+				</div>
+				<div class="post-excerpt">
+					<h2>{{ post.cliente | escape }}</h2>
+					<h3>{{ post.servicio }}</h3>
+					{{ post.excerpt }}
+				</div>
+			</div>
+		{%- endfor -%}
+	{%- endif -%}
+</section>

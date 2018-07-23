@@ -1,0 +1,172 @@
+.proyectos {
+	padding: 7em 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	.post-item {
+		display: flex;
+		flex-direction: column;
+		margin: 0 1em 5em 1em;
+		width: 300px;
+		.post-img {
+			width: 300px;
+			height: 300px;
+			background-color: $light-gray;
+			border: solid .5em $pink;
+			position: relative;
+			z-index: 1;
+			margin-bottom: 2.5em;
+			&:after {
+				content: "";
+				background-color: $pink;
+				width: 50px;
+				height: 50px;
+				bottom: -30px;
+				left: 120px;
+				position: absolute;
+				transform: rotate(45deg);
+				z-index: -1;
+			}
+		}
+		
+		.post-excerpt {
+			text-align: left;
+			h2 {
+				font-size: 1em;
+				margin: 0;
+			}
+			h3 {
+				font-size: 1.2em;
+				margin: 0 0 .8em;
+				font-weight: bold;
+			}
+
+		}
+	}
+}
+
+
+//Single
+section.featured-image {
+	margin-top: 0;
+}
+
+.featured-image {
+	margin: 0;
+	width: 100%;
+	background-color: $light-gray;
+	clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 90%, 0 100%);
+	img {
+		width: 100%;
+	}    
+}
+
+.cliente {
+	h2 {
+		font-size: 1em;
+		color: $light-gray;
+		margin-bottom: 0;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	.cliente-intro {
+		width: 65%;
+		margin: auto;
+		margin-top: 3em;
+		p {
+			padding: 0 3em;
+		}
+	}
+}
+
+.descripcion {
+	background: $orange;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	padding: 0 7em;
+	position: relative;
+	height: 400px;
+	margin-top: 13em ;
+	transform: skewY(-2deg);
+	&:nth-child(even){
+		flex-direction: row-reverse;
+		transform: skewY(2deg);
+		.descripcion-body {
+			text-align: left;
+			padding: 0 3em 0 2em;
+			transform: skewY(-2deg);
+		}
+		img {
+			transform: skewY(-2deg);
+		}
+	}
+	.descripcion-body {
+		width: 50%;
+		padding: 0 2em 0 3em;
+		text-align: right;
+		transform: skewY(2deg);
+		h4 {
+			font-weight: bold;
+		}
+	}
+	img {
+		width: 500px;
+		position: relative;
+		transform: skewY(2deg);
+	}
+}
+
+.descripcion-dark {
+	background-color: $dark-gray;
+}
+
+.quote {
+	margin-top: 1.5em;
+	quotes: "\201C""\201D""\2018""\2019";
+	position: relative;
+	&:before {
+		color: #ccc;
+		content: open-quote;
+		font-size: 8em;
+		line-height: 0.1em;
+		margin-right: 0.25em;
+		vertical-align: -0.4em;
+		left: 0;
+		top: 50px;
+		position: absolute;
+		z-index: -1;
+	}
+	&:after {
+		color: #ccc;
+		content: close-quote;
+		font-size: 8em;
+		line-height: 0.1em;
+		margin-left: 0.25em;
+		vertical-align: -0.4em;
+		right: 0;
+		top: 80px;
+		position: absolute;
+		z-index: -1;
+	}
+	p {
+		text-align: left;
+		z-index: 2;
+	}
+}
+
+.quote-author {
+	text-align: right;
+	.author  {
+		color: $light-gray;
+		font-weight: bold;
+	}
+	.title {
+		font-size: .8em;
+	}
+}

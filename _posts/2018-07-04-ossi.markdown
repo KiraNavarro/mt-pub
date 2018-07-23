@@ -1,0 +1,31 @@
+---
+layout: proyecto
+color: $orange
+permalink: /proyectos/ossi/
+featured-image: ossi-featured.jpg
+featured-image-thumb: ossi-featured-thumb.jpg
+cliente:  OSSI / SPA POSTLIPO
+slogan: Belleza, balance y amornía.
+date:   2018-07-04 11:59:22 -0500
+intro: |
+  Rosalía Aguayo, mejor conocida como “Ossi”, quien es una exitosa cosmetóloga y terapeuta especializada en procesos de apoyo a pacientes pre y post operatorios.
+  <br><br>
+  Ossi requirió de una reingeniería de identidad corporativa, tras varios años en el mercado decidió dar un paso adelante y dar impulso a su identidad y publicidad con la ﬁnalidad de lograr un mayor acercamiento, comunicación e identiﬁcación con su clientela y alcanzar un mercado aún deseado, y seguir brindando belleza, balance y armonía.
+descripcion-1:
+  titulo: A la medida
+  img: ossi-1.png
+  body: |
+    OSSI SPA POSTLIPO requirió pasar por varias fases de propuestas de diseño, donde nos permitió explorar diferentes alternativas para su nueva imagen. El resultado no solo nos llena de orgullo, sino que resultó en una identidad armónica, bella y lista para compartir a la audiencia una imagen cálida del proceso de mejoras físicas.
+quote: 
+  body: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat onsectetuer adipiscing elit, sed diam.
+  autor: David Cabrera
+  titulo: Director Gral. BioGenius Technology
+descripcion-2:
+  titulo: Belleza en todo momento
+  img: ossi-2.png
+  body: |
+    Generar imagenes que apoyaran el nuevo concepto para OSSI SPA POSTLIPO permitieron una pauta elegante, amable y con un mensaje claro que no requrió de apoyos de texto como una primer fase de presentación al mercado.
+servicio: Identidad Corporativa
+---
+Rosalía Aguayo, mejor conocida como “Ossi”, quien es una exitosa cosmetóloga y terapeuta especializada en procesos de apoyo a pacientes pre y post operatorios. Ossi requirió de una reingeniería de identidad.

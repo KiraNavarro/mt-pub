@@ -3,32 +3,77 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }} </h1>
-  {%- endif -%}
+	<section class="intro container section-intro">
+		{%- if page.title -%}
+			<h1 class="page-heading">{{ page.title }} </h1>
+		{%- endif -%}
+		<div class="home-content">
+			<p>Desde 2012 MT se ha posicionado como una agencia de comunicación gráﬁca multidisciplinaria; impactando al mercado con conceptos frescos, funcionales y versátiles.
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+			Nuestras propuestas han alcanzado diversos sectores comerciales tanto para MiPyMEs como a
+			empresas de presencia internacional gracias a la ﬂexibilidad de nuestros sistemas de trabajo.</p>
+			<a href="{{site.url}}/agencia">Conoce MT</a>
+		</div>
+	</section>
+	<section class="home-proyectos container">
+		{%- if site.posts.size > 0 -%}
+		{%- for post in site.posts -%}
+			<div class="post-item">
+				<div class="post-img">
+					<a class="post-link" href="{{ post.url | relative_url }}">
+						<img src="/assets/img{{ post.permalink }}{{ post.featured-image-thumb }}" alt="{{ post.cliente }}">
+					</a>
+				</div>
+				<div class="post-excerpt">
+					<h2>{{ post.cliente | escape }}</h2>
+					<h3>{{ post.servicio }}</h3>
+					{{ post.excerpt }}
+				</div>
+			</div>
+			{%- endfor -%}
+		{%- endif -%}
+	</section>
+		
+	<section class="hay-mas container">
+		<h2>Aún hay más</h2>
+		<p>Esta es solo una pequeña selección. <br>Se pueden encontrar más ejemplos de trabajo en la sección Proyectos.</p>
+		<a href="proyectos" class="btn-custom-pink">Proyectos</a>
+	</section>
+	
+	<section class="skew-section">
+		<div class="skew-wrap">
+			<div class="unskew-content">
+				<h2>Soluciones en comunicación gráﬁca</h2>
+				<p>Nuestra meta es clara: elevar la visibilidad credibilidad y rentabilidad de nuestros clientes.<br><b>Nuestra pasión: no sólo diseñar, sino; dar vida a conceptos exitosos.</b></p>
+				<div class="soluciones-secciones">
+					<div>
+						<h2>Diseño</h2>
+						<p>Hacer parte de la famila MT a cada cliente, así como creer e involucrarnos en cada proyecto da pie a conceptos únicos... con vida propia.</p>
+					</div>
+					<div>
+						<h2>Estrategia</h2>
+						<p>No sólo es diseñar... es creer, entender y apostar por las necesidades y retos que implica comunicar e impactar al mercado.</p>
+					</div>
+					<div>
+						<h2>Frescura</h2>
+						<p>Lucir bien es importante... impactar, atraer y transmitir de forma clara y acorde a las necesidades del usuario son fundamentales.</p>
+					</div>
+				</div>
+				
+				<a href="#" class="btn-custom-gray-transparent">¿Cómo lo hacemos?</a>
+			</div>
+		</div>
+	</section>
+	<section class="familia container">
+		<h2>Familia MT</h2>
+		<div class="familia-items">
+			{% for item in site.data.familia %}
+			<div class="item-img">
+				<img src="/assets/img/familia/{{ item.img }}" alt="{{ item.name }}">
+			</div>
+			{% endfor %}
+		</div>
+		
+		
+	</section>
 </div>
