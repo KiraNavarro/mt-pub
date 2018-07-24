@@ -14,7 +14,9 @@ layout: default
 					<h5>{{ talento.titulo }}</h5>
 					<div class="talento-descripcion"><b>{{ talento.descripcion }}</b></div>
 					<p>{{ talento.body }}</p>
+					{% if talento.especialidad %}
 					<span class="talento-especialidad">Especialidad: {{ talento.especialidad }}</span>
+					{% endif %} 
 				</div>
 				<div class="talento-img">
 					<img src="/assets/img/talento/{{ talento.img }}" alt="{{ talento.nombre }}">
