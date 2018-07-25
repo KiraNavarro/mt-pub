@@ -6,12 +6,12 @@ layout: default
 	<section class="contacto section-intro">
 		{{ content }}
 	</section>
-	<form data-parsley-validate class="contacto" action="https://formspree.io/kira.navarro@gmail.com" method="POST" id="ajax-contact">
+	<form data-parsley-validate class="contacto" action="https://formspree.io/contacto@mtpublicidad.com.mx" method="POST" id="ajax-contact">
 		<h3>Escríbenos</h3>
 		<div class="form-row">
 			<div class="col">
 				<div class="form-group">
-					<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" minlength="6" required>
+					<input type="text" class="form-control" id="name" name="name _replyto" placeholder="Nombre" minlength="6" required>
 				</div>
 				<div class="form-group">
 					<input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
@@ -32,6 +32,11 @@ layout: default
 					></textarea>
 				</div>
 			</div>
+			<input type="hidden" name="_subject" value="Nuevo mensaje de contacto de MT" />
+			<input type="hidden" name="_format" value="plain" />
+			<input type="hidden" name="_language" value="es" />
+			<input type="text" name="_gotcha" style="display:none" />
+			<input type="hidden" name="_next" value="{{ site.url }}/gracias/" />
 		</div>
 		<button type="submit" class="btn submit-btn">Enviar</button>
 	</form>
